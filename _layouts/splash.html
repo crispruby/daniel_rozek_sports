@@ -1,0 +1,21 @@
+---
+layout: default
+---
+
+{% include masthead.html %}
+
+{% include header.html type="page" %}
+
+<div id="main" role="main">
+  {% include sidebar.html %}
+  <article class="splash">
+    <div class="page__inner-wrap">
+      {% include page__title.html %}
+      {% include page__meta.html %}
+      {% include page__content.html %}
+      {% include feature_row %}
+    </div>
+  </article>
+</div>
+
+{% include footer.html %}
