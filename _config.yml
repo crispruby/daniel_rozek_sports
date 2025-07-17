@@ -13,3 +13,7 @@ navigation:
     url: "/achievements/"
   - title: "Support Me"
     url: "/sponsors/"
+    
+head:
+  custom: |
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
