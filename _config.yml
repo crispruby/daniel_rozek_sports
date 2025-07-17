@@ -3,3 +3,13 @@ plugins:
   - jekyll-remote-theme
   - jekyll-feed
   - jekyll-sitemap
+  
+navigation:
+  - title: "Home"
+    url: "/"
+  - title: "About Me"
+    url: "/about/"
+  - title: "Achievements"
+    url: "/achievements/"
+  - title: "Support Me"
+    url: "/sponsors/"
