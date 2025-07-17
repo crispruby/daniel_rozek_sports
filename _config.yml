@@ -1,4 +1,8 @@
+title: Daniel Rozek Sports
+description: "Special Olympics athlete with epilepsy — 4x medalist at BC Summer Games 2025"
 remote_theme: mmistakes/minimal-mistakes
+minimal_mistakes_skin: neon
+markdown: kramdown
 plugins:
   - jekyll-remote-theme
   - jekyll-feed
@@ -16,4 +20,4 @@ navigation:
     
 head:
   custom: |
-    <link rel="icon" href="/favicon_shoe.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon_shoe.ico?v=1" type="image/x-icon">
