@@ -5,7 +5,7 @@ permalink: /
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
-  overlay_image: /assets/images/header.jpg
+  overlay_image: /assets/WidePeaks.jpg
   caption: "Special Olympics BC Medalist • Epilepsy Warrior"
 excerpt: "Follow my journey to the national games and support my mission!"
 ---
