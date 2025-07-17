@@ -1,5 +1,5 @@
-title: Daniel Rozek Sports
-description: "Special Olympics athlete with epilepsy — 4x medalist at BC Summer Games 2025"
+title: Daniel Rozek
+description: "Special Olympics athlete with epilepsy."
 remote_theme: mmistakes/minimal-mistakes
 minimal_mistakes_skin: neon
 markdown: kramdown
@@ -21,3 +21,36 @@ navigation:
 head:
   custom: |
     <link rel="icon" href="/favicon_shoe.ico?v=1" type="image/x-icon">
+
+author:
+  name: "Daniel Rozek"
+  avatar: "/assets/images/Photo.jpg"
+  bio: "Special Olympics athlete with epilepsy. 4x medalist at BC Summer Games 2025. Training for nationals and sharing my journey."
+  links:
+    - label: "Strava"
+      icon: "fas fa-fw fa-running"
+      url: "https://www.strava.com/athletes/danielrozek"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/crispruby"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/danielrozek/"
+    - label: "Portfolio"
+      icon: "fas fa-fw fa-link"
+      url: "https://crispruby.github.io/"
+
+footer:
+  links:
+    - label: "Strava"
+      icon: "fas fa-fw fa-running"
+      url: "https://www.strava.com/athletes/danielrozek"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/crispruby"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/danielrozek/"
+    - label: "Portfolio"
+      icon: "fas fa-fw fa-link"
+      url: "https://crispruby.github.io/"
