@@ -4,7 +4,7 @@
 layout: home
 author_profile: true
 header:
-  image: /assets/images/MountainPeaks.jpg
+  image: /assets/MountainPeaks.jpg
   caption: "Mountain Peaks"
 #markdownguide.org, Below, *italic*, **bold**, Dash are bullet points
 ---
