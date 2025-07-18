@@ -1,0 +1,7 @@
+main:
+  - title: "About"
+    url: /about/
+  - title: "Achievements"
+    url: /achievements/
+  - title: "Sponsors"
+    url: /sponsors/
