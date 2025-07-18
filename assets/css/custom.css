@@ -1,0 +1,31 @@
+.horizontal-nav {
+  background-color: #222;
+  padding: 0.5em 1em;
+  text-align: center;
+}
+
+.horizontal-nav__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.horizontal-nav__item {
+  margin: 0 1em;
+}
+
+.horizontal-nav__link {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 0.5em 0;
+  display: inline-block;
+}
+
+.horizontal-nav__link:hover {
+  color: #00ffff;
+  border-bottom: 2px solid #00ffff;
+}
