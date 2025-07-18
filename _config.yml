@@ -36,6 +36,9 @@ navigation:
   - title: "Support Me"
     url: "/sponsors/"
     
+header:
+  nav: true
+  
 author:
   name: "Daniel Rozek"
   avatar: "/assets/IMG_2025071106.jpg"
