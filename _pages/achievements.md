@@ -2,7 +2,7 @@
 title: "Achievements"
 permalink: /achievements/
 header:
-  image: /assets/images/MountainPeaks.jpg
+  image: /assets/MountainPeaks.jpg
   caption: Mountain Peaks
 ---
 
