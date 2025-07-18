@@ -5,13 +5,15 @@
   background-color: #222;
   padding: 0.5em 1em;
   text-align: center;
+  display: block !important;
 }
 
 .horizontal-nav__list {
   list-style: none;
   margin: 0;
   padding: 0;
-  display: flex;
+  display: flex !important;
+  flex-direction: row !important;
   justify-content: center;
   flex-wrap: wrap;
 }
