@@ -2,10 +2,8 @@
 title: "Support Me"
 permalink: /sponsors/
 header:
-  image: /assets/images/WidePeaks.jpg
+  image: /assets/WidePeaks.jpg
   caption: Mountain Peaks
-layout: single
-author_profile: true
 ---
 
 I’m training for the national competition and looking for sponsors to help with travel, gear, and training costs.
