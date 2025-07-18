@@ -4,8 +4,6 @@ permalink: /achievements/
 header:
   image: /assets/images/MountainPeaks.jpg
   caption: Mountain Peaks
-layout: single
-author_profile: true
 ---
 
 ## BC Summer Games 2025
