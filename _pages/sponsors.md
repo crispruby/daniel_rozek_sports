@@ -1,7 +1,8 @@
 ---
-layout: single
 title: "Support Me"
 permalink: /sponsors/
+layout: single
+author_profile: true
 ---
 
 I’m training for the national competition and looking for sponsors to help with travel, gear, and training costs.
