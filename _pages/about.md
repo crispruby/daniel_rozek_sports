@@ -1,6 +1,9 @@
 ---
 title: "About Me"
 permalink: /about/
+header:
+  image: /assets/images/TreePeaks.jpg
+  caption: Mountain Peaks
 layout: single
 author_profile: true
 ---
