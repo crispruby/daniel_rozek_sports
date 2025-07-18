@@ -1,9 +1,0 @@
-<nav class="horizontal-nav">
-  <ul class="horizontal-nav__list">
-    {% for item in site.navigation %}
-      <li class="horizontal-nav__item">
-        <a href="{{ item.url | relative_url }}" class="horizontal-nav__link">{{ item.title }}</a>
-      </li>
-    {% endfor %}
-  </ul>
-</nav>
