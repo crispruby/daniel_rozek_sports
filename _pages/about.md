@@ -2,7 +2,7 @@
 permalink: /about/
 title: "About Me"
 header:
-  image: /assets/images/TreePeaks.jpg
+  image: /assets/TreePeaks.jpg
   caption: Mountain Peaks
 ---
 ## Welcome
