@@ -1,7 +1,8 @@
 ---
-layout: single
 title: "Achievements"
 permalink: /achievements/
+layout: single
+author_profile: true
 ---
 
 ## BC Summer Games 2025
