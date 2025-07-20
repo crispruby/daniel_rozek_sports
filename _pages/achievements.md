@@ -16,8 +16,8 @@ header:
   </div>
 
   <div style="flex: 1; display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
-    <img src="{{ 'assets/images/IMG_2025071106.jpg' | relative_url }}">
     <img src="{{ 'assets/images/IMG_2025071102.jpg' | relative_url }}">
     <img src="{{ 'assets/images/IMG_2025071104.jpg' | relative_url }}">
+    <img src="{{ 'assets/images/IMG_2025071106.jpg' | relative_url }}">
   </div>
 </div>
