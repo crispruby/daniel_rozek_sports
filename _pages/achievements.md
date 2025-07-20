@@ -17,7 +17,7 @@ header:
 
   <div style="flex: 1; display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
     <img src="{{ 'assets/images/IMG_2025071106.jpg' | relative_url }}">
-    <img src="assets/images/IMG_2025071102.jpg" alt="Wide Track Event" style="width: 100%; object-fit: cover;">
-    <img src="assets/images/IMG_2025071104.jpg" alt="Wide Field Event" style="width: 100%; object-fit: cover;">
+    <img src="{{ 'assets/images/IMG_2025071102.jpg' | relative_url }}">
+    <img src="{{ 'assets/images/IMG_2025071104.jpg' | relative_url }}">
   </div>
 </div>
