@@ -34,7 +34,7 @@ header:
     For over <strong>15 years</strong>, Taekwondo was a central part of my life. I trained at <strong>three academies</strong> and competed in multiple tournaments throughout British Columbia, developing both physical skill and inner discipline. For last <strong>7 of those years</strong>, I also taught Taekwondo to students of all ages, from young beginners learning their first stances to adults seeking strength and confidence. My <strong>two younger brothers</strong> and I all earned our black belts together, pushing one another as siblings and athletes. Although we all stopped our training due to the long <strong>COVID-19 pandemic</strong>, our journey through martial arts continues to inspire us. 
   </p>
 </div>
-<div style="width: 100%; display: flex; flex-direction: column; gap: 20px; align-items: center;">
-  <img src="{{ 'assets/images/IMG_20190525_112339062.jpg' | relative_url }}" alt="Taekwondo Tournament 1" style="width: 60%; object-fit: cover; border-radius: 6px; box-shadow: 0 0 10px rgba(0,0,0,0.15);">
-  <img src="{{ 'assets/images/IMG_20190525_144827881.jpg' | relative_url }}" alt="Taekwondo Tournament 2" style="width: 60%; object-fit: cover; border-radius: 6px; box-shadow: 0 0 10px rgba(0,0,0,0.15);">
+<div style="width: 100%; display: flex; flex-direction: row; gap: 20px; justify-content: center;">
+  <img src="{{ 'assets/images/IMG_20190525_112339062.jpg' | relative_url }}" alt="Taekwondo Tournament 1" style="width: 45%; object-fit: cover; border-radius: 6px; box-shadow: 0 0 10px rgba(0,0,0,0.15);">
+  <img src="{{ 'assets/images/IMG_20190525_144827881.jpg' | relative_url }}" alt="Taekwondo Tournament 2" style="width: 45%; object-fit: cover; border-radius: 6px; box-shadow: 0 0 10px rgba(0,0,0,0.15);">
 </div>
