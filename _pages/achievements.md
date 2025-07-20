@@ -1,6 +1,8 @@
 ---
 title: "Achievements"
 permalink: /achievements/
+layout: single
+author_profile: true
 header:
   image: /assets/MountainPeaks.jpg
   caption: Mountain Peaks
