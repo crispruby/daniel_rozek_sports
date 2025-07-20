@@ -17,10 +17,14 @@ img:hover {
 .page {
   width: 100% !important;
   max-width: 100% !important;
-  margin: 0 auto;
-  padding: 0 2rem;
+  padding-right: 0 !important;
 }
-
+.page__related,
+.sidebar__right {
+  display: none !important;
+  width: 0 !important;
+  padding: 0 !important;
+}
 .page__content {
   width: 100% !important;
   max-width: 100% !important;
