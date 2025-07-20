@@ -2,7 +2,8 @@
 title: "Achievements"
 permalink: /achievements/
 layout: single
-author_profile: true
+classes: wide
+author_profile: false
 header:
   image: /assets/MountainPeaks.jpg
   caption: Mountain Peaks
