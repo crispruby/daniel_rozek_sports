@@ -9,10 +9,10 @@ header:
   caption: Mountain Peaks
 ---
 
-<div style="width: 100%; margin-top: 20px;">
-  <h2 style="font-size: 2em; color: #39ff14; text-shadow: 0 0 5px #39ff14; margin-top: 40px;">
+<div style="width: 100%; margin-top: 10px;">
+  <h4 style="font-size: 2em; color: #39ff14; text-shadow: 0 0 5px #39ff14; margin-top: 20px;">
     Special Olympics BC Summer Games Provincial Competition of 2025
-  </h2>
+  </h4>
 </div>
 <div style="width: 100%; margin-top: 20px;">
   <p>
