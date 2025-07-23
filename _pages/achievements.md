@@ -45,7 +45,7 @@ header:
 </div>
 <div style="width: 100%; margin-bottom: 30px;">
   <p style="line-height: 1.6;">
-    For me, cycling is more than a sport — it’s movement, independence, and peace of mind. I started riding around age six, and it’s been part of my lifestyle ever since. Whether I’m running errands, training for fitness, or simply enjoying a cruise through the city, the bike is my constant companion. Since 2017, I’ve tracked my rides using Strava, pushing my limits and celebrating progress. In 2023, I hit a personal record of <strong>2,607 kilometers cycled</strong>, with a <strong>longest ride of 78 km</strong> and <strong>1,431 meters climbed</strong> on a single day. Each ride is both a workout and a win — a way to move through the world on my terms, build strength, and stay grounded.
+    For me, cycling is more than a sport — it’s movement, independence, and peace of mind. I started riding around age six, and it’s been part of my lifestyle ever since. Whether I’m running errands, training for fitness, or simply enjoying a cruise through the city, the bike is my constant companion. Since 2017, I’ve tracked my rides using Strava, pushing my limits and celebrating progress. In 2023, I hit a personal annual record of <strong>2,607 kilometers cycled</strong>, with a <strong>longest ride of 78 km</strong> and <strong>1,431 meters elevation gain</strong> on a single day. Each ride is both a workout and a win — a way to move through the world on my terms, and build strength.
   </p>
 </div>
 <div style="width: 100%;">
@@ -55,10 +55,10 @@ header:
   <table style="width: 100%; border-collapse: collapse; font-size: 0.95em;">
     <thead style="background-color: #f0f8ff;">
       <tr>
-        <th style="padding: 10px; text-align: left;">Year</th>
-        <th style="padding: 10px; text-align: left;">Distance</th>
-        <th style="padding: 10px; text-align: left;">Age</th>
-        <th style="padding: 10px; text-align: left;">Highlights</th>
+        <th style="background-color: #007acc; color: white; padding: 10px; text-align: left;">Year</th>
+        <th style="background-color: #007acc; color: white; padding: 10px; text-align: left;">Distance</th>
+        <th style="background-color: #007acc; color: white; padding: 10px; text-align: left;">Age</th>
+        <th style="background-color: #007acc; color: white; padding: 10px; text-align: left;">Highlights</th>
       </tr>
     </thead>
     <tbody>
