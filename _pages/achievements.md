@@ -38,3 +38,41 @@ header:
   <img src="{{ 'assets/images/IMG_20190525_112339062.jpg' | relative_url }}" alt="Taekwondo Tournament 1" style="width: 45%; object-fit: cover; border-radius: 6px; box-shadow: 0 0 10px rgba(0,0,0,0.15);">
   <img src="{{ 'assets/images/IMG_20190525_144827881.jpg' | relative_url }}" alt="Taekwondo Tournament 2" style="width: 45%; object-fit: cover; border-radius: 6px; box-shadow: 0 0 10px rgba(0,0,0,0.15);">
 </div>
+<div style="width: 100%; margin-top: 40px;">
+  <h2 style="font-size: 2em; color: #00bfff; text-shadow: 0 0 4px #00bfff;">
+    Life on Two Wheels: Cycling as Freedom, Fitness & Focus
+  </h2>
+</div>
+<div style="width: 100%; margin-bottom: 30px;">
+  <p style="line-height: 1.6;">
+    For me, cycling is more than a sport — it’s movement, independence, and peace of mind. I started riding around age six, and it’s been part of my lifestyle ever since. Whether I’m running errands, training for fitness, or simply enjoying a cruise through the city, the bike is my constant companion. Since 2017, I’ve tracked my rides using Strava, pushing my limits and celebrating progress. In 2023, I hit a personal record of <strong>2,607 kilometers cycled</strong>, with a <strong>longest ride of 78 km</strong> and <strong>1,431 meters climbed</strong> on a single day. Each ride is both a workout and a win — a way to move through the world on my terms, build strength, and stay grounded.
+  </p>
+</div>
+<div style="width: 100%;">
+  <h3 style="font-size: 1.6em; color: #228b22; margin-bottom: 10px;">
+    Annual Cycling Records & Life Milestones
+  </h3>
+  <table style="width: 100%; border-collapse: collapse; font-size: 0.95em;">
+    <thead style="background-color: #f0f8ff;">
+      <tr>
+        <th style="padding: 10px; text-align: left;">Year</th>
+        <th style="padding: 10px; text-align: left;">Distance</th>
+        <th style="padding: 10px; text-align: left;">Age</th>
+        <th style="padding: 10px; text-align: left;">Highlights</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td style="padding: 8px;">2024</td><td style="padding: 8px;">1,320 km</td><td style="padding: 8px;">28</td><td style="padding: 8px;">Special Olympics BC Provincial Summer Games</td></tr>
+      <tr><td style="padding: 8px;">2023</td><td style="padding: 8px;">2,607 km</td><td style="padding: 8px;">27</td><td style="padding: 8px;">Special Olympics Regional Summer Games</td></tr>
+      <tr><td style="padding: 8px;">2022</td><td style="padding: 8px;">1,778 km</td><td style="padding: 8px;">26</td><td style="padding: 8px;">End of COVID</td></tr>
+      <tr><td style="padding: 8px;">2021</td><td style="padding: 8px;">1,570 km</td><td style="padding: 8px;">25</td><td style="padding: 8px;">Mid-pandemic riding</td></tr>
+      <tr><td style="padding: 8px;">2020</td><td style="padding: 8px;">1,350 km</td><td style="padding: 8px;">24</td><td style="padding: 8px;">COVID onset in Canada</td></tr>
+      <tr><td style="padding: 8px;">2019–20</td><td style="padding: 8px;">1,387 km</td><td style="padding: 8px;">23</td><td style="padding: 8px;">College Graduation, Retired from Tae-Kwon-Do</td></tr>
+      <tr><td style="padding: 8px;">2018–19</td><td style="padding: 8px;">1,788 km</td><td style="padding: 8px;">22</td><td style="padding: 8px;">4th year of college</td></tr>
+      <tr><td style="padding: 8px;">2017–18</td><td style="padding: 8px;">1,314 km</td><td style="padding: 8px;">21</td><td style="padding: 8px;">3rd year of college</td></tr>
+      <tr><td style="padding: 8px;">2016–17</td><td style="padding: 8px;">1,496 km</td><td style="padding: 8px;">20</td><td style="padding: 8px;">2nd year of college</td></tr>
+      <tr><td style="padding: 8px;">2015–16</td><td style="padding: 8px;">1,460 km</td><td style="padding: 8px;">19</td><td style="padding: 8px;">1st year of college</td></tr>
+      <tr><td style="padding: 8px;">2014–15</td><td style="padding: 8px;">1,606 km</td><td style="padding: 8px;">18</td><td style="padding: 8px;">Final year of high school</td></tr>
+    </tbody>
+  </table>
+</div>
