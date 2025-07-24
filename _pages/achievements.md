@@ -90,25 +90,43 @@ header:
 
   let x = 400;
   let y = 400;
-  let angle = -0.45; // current test direction
+  let angle = -0.45;
   let speed = 2;
-  const maxFrames = 140; // run for 180 frames (~3 seconds at 60fps)
+  const maxFrames = 140; // run for 140 frames 
   let frameCount = 0;
 
+  const curveFrames = 100;       // Duration of the curve
+  let curveProgress = 0;
+  const curveStartAngle = angle; // Starting angle
+  const curveEndAngle = 0.45;    // Final angle after turning
+  
   function animateCyclist() {
     ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+    if (frameCount < maxFrames) {
+      x += speed * Math.cos(angle);
+      y += speed * Math.sin(angle);
+      frameCount++;
+
+    } else if (curveProgress < curveFrames) {
+      const t = curveProgress / curveFrames;
+      angle = curveStartAngle + (curveEndAngle - curveStartAngle) * t;
+
+      x += speed * Math.cos(angle);
+      y += speed * Math.sin(angle);
+      curveProgress++;
+    }
+
     ctx.save();
     ctx.translate(x, y);
     ctx.rotate(angle);
     ctx.drawImage(cyclist, -20, -20, 40, 40);
     ctx.restore();
-    if (frameCount < maxFrames) {
-      x += speed * Math.cos(angle);
-      y += speed * Math.sin(angle);
-      frameCount++;
-    }
 
-    requestAnimationFrame(animateCyclist);
+    // Continue animation until both phases complete
+    if (frameCount < maxFrames || curveProgress < curveFrames) {
+      requestAnimationFrame(animateCyclist);
+    }
   }
 
   cyclist.onload = () => animateCyclist();
