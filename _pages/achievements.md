@@ -84,15 +84,14 @@ header:
 <script>
   const canvas = document.getElementById("cyclistCanvas");
   const ctx = canvas.getContext("2d");
-
   const cyclist = new Image();
   cyclist.src = "{{ 'assets/images/Cyclist.png' | relative_url }}";
-
   let x = 400;
   let y = 400;
   let angle = -0.45; // Test angle here!
   let speed = 2;
-
+  const maxFrames = 180;
+  let frameCount = 0;
   function animateCyclist() {
     ctx.clearRect(0, 0, canvas.width, canvas.height);
     ctx.save();
@@ -100,12 +99,12 @@ header:
     ctx.rotate(angle);
     ctx.drawImage(cyclist, -20, -20, 40, 40);
     ctx.restore();
-
-    x += speed * Math.cos(angle);
-    y += speed * Math.sin(angle);
-
+    if (frameCount < maxFrames) {
+      x += speed * Math.cos(angle);
+      y += speed * Math.sin(angle);
+      frameCount++;
+    }
     requestAnimationFrame(animateCyclist);
   }
-
   cyclist.onload = () => animateCyclist();
 </script>
