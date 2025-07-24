@@ -78,8 +78,10 @@ header:
   </table>
 </div>
 <div class="roadCanvasWrapper" style="position: relative; width: 800px; margin: 40px auto;">
-  <img src="{{ 'assets/images/Road.png' | relative_url }}" alt="Cycling Loop Track" id="loopTrack" style="width: 100%; display: block;">
-  <canvas id="cyclistCanvas" width="800" height="400" style="position: absolute; top: 0; left: 0; pointer-events: none;"></canvas>
+  <img src="{{ 'assets/images/Road.png' | relative_url }}" alt="Road" id="loopTrack"
+       style="width: 100%; display: block; position: relative; z-index: 1;">
+  <canvas id="cyclistCanvas" width="800" height="400"
+       style="position: absolute; top: 0; left: 0; pointer-events: none; z-index: 2;"></canvas>
 </div>
 <script>
   const canvas = document.getElementById("cyclistCanvas");
@@ -101,7 +103,5 @@ header:
     ctx.drawImage(cyclist, -20, -20, 40, 40);
     ctx.restore();
   }
-
-  // 🚦 Trigger: Runs once the image finishes loading
   cyclist.onload = () => drawCyclistStart();
 </script>
