@@ -94,14 +94,18 @@ header:
   const startX = 400;
   const startY = 400;
   const startAngle = -(Math.PI / 4); // 45 degrees in radians
-
-  function drawCyclistStart() {
+  let speed = 2;
+  function animateCyclist() {
     ctx.clearRect(0, 0, canvas.width, canvas.height);
     ctx.save();
-    ctx.translate(startX, startY);
-    ctx.rotate(startAngle);
+    ctx.translate(x, y);
+    ctx.rotate(angle);
     ctx.drawImage(cyclist, -20, -20, 40, 40);
     ctx.restore();
+    // Move based on angle
+    x += speed * Math.cos(angle);
+    y += speed * Math.sin(angle);
+    requestAnimationFrame(animateCyclist);
   }
-  cyclist.onload = () => drawCyclistStart();
+  cyclist.onload = () => animateCyclist();
 </script>
