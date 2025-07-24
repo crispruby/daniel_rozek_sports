@@ -84,45 +84,32 @@ header:
 <script>
   const canvas = document.getElementById("cyclistCanvas");
   const ctx = canvas.getContext("2d");
+
   const cyclist = new Image();
   cyclist.src = "{{ 'assets/images/Cyclist.png' | relative_url }}";
+
   let x = 400;
   let y = 400;
-  let angle = -0.45; // starting angle
+  let angle = -0.45; // current test direction
   let speed = 2;
-
-  const straightFrames = 140;
-  const curveFrames = 100;
+  const maxFrames = 140; // run for 180 frames (~3 seconds at 60fps)
   let frameCount = 0;
-
-  let targetAngle = 0.45; // Curve settings
 
   function animateCyclist() {
     ctx.clearRect(0, 0, canvas.width, canvas.height);
-    if (frameCount < straightFrames) {
-      // Phase 1: move straight
-      x += speed * Math.cos(angle);
-      y += speed * Math.sin(angle);
-    } else if (frameCount < straightFrames + curveFrames) {
-      // Phase 2: curve turn
-      const t = (frameCount - straightFrames) / curveFrames;
-      const curvedAngle = angle + (targetAngle - angle) * t;
-
-      x += speed * Math.cos(curvedAngle);
-      y += speed * Math.sin(curvedAngle);
-      angle = curvedAngle; // update angle for smooth rotation
-    }
-    // Draw cyclist
     ctx.save();
     ctx.translate(x, y);
     ctx.rotate(angle);
     ctx.drawImage(cyclist, -20, -20, 40, 40);
     ctx.restore();
-
-    frameCount++;
-    if (frameCount < straightFrames + curveFrames) {
-      requestAnimationFrame(animateCyclist);
+    if (frameCount < maxFrames) {
+      x += speed * Math.cos(angle);
+      y += speed * Math.sin(angle);
+      frameCount++;
     }
+
+    requestAnimationFrame(animateCyclist);
   }
-  cyclist.onload = () => animateCurveTurn();
+
+  cyclist.onload = () => animateCyclist();
 </script>
