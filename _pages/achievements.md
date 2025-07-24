@@ -98,7 +98,7 @@ header:
   const curveFrames = 100;       // Duration of the curve
   let curveProgress = 0;
   const curveStartAngle = angle; // Starting angle
-  const curveEndAngle = 0.45;    // Final angle after turning
+  const curveEndAngle = -1.35;    // Final angle after turning
   
   function animateCyclist() {
     ctx.clearRect(0, 0, canvas.width, canvas.height);
