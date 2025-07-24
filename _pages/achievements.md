@@ -81,3 +81,27 @@ header:
   <img src="{{ 'assets/images/Road.png' | relative_url }}" alt="Cycling Loop Track" id="loopTrack" style="width: 800px; max-width: 100%; position: relative;">
   <canvas id="cyclistCanvas" width="800" height="400" style="position: absolute; top: 0; left: 50%; transform: translateX(-50%); pointer-events: none;"></canvas>
 </div>
+<script>
+  const canvas = document.getElementById("cyclistCanvas");
+  const ctx = canvas.getContext("2d");
+
+  const cyclist = new Image();
+  cyclist.src = "{{ 'assets/images/Cyclist.png' | relative_url }}"; // Jekyll-compatible
+
+  // 🎯 Starting Coordinates + Rotation Angle (adjust as needed)
+  const startX = 400;
+  const startY = 200;
+  const startAngle = Math.PI / 4; // 45 degrees in radians
+
+  function drawCyclistStart() {
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+    ctx.save();
+    ctx.translate(startX, startY);
+    ctx.rotate(startAngle);
+    ctx.drawImage(cyclist, -20, -20, 40, 40);
+    ctx.restore();
+  }
+
+  // 🚦 Trigger: Runs once the image finishes loading
+  cyclist.onload = () => drawCyclistStart();
+</script>
