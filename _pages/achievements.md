@@ -90,7 +90,7 @@ header:
 
   let x = 400;
   let y = 400;
-  let angle = 1; // Test angle here!
+  let angle = 0; // Test angle here!
   let speed = 2;
 
   function animateCyclist() {
