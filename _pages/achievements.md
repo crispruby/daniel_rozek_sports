@@ -77,3 +77,6 @@ header:
     </tbody>
   </table>
 </div>
+<div style="width: 100%; margin-top: 40px;">
+  <canvas id="loopCanvas" width="800" height="400" style="border: 1px solid #ccc;"></canvas>
+</div>
