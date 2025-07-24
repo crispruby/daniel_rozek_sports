@@ -6,8 +6,12 @@ header:
   caption: Mountain Peaks
 ---
 <div style="text-align: center; margin-top: 1rem;">
-  <h2>I’m Training for Nationals 🚴‍♂️</h2>
-  <p>Currently self-funding travel, gear, and coaching. If you’d like to help, here’s how:</p>
+  <h2>Training with Special Olympics 🏃‍♂️⛷️</h2>
+  <p>
+    I’m proud to be an athlete with Special Olympics, where I stay active and focused year-round. I compete in summer track and field events and winter cross-country skiing. I also participate in other team sports like basketball and soccer.  
+    <br>
+    If you’d like to sponsor or donate to support my journey, your kindness means a lot. Every bit of encouragement helps me keep training and striving toward my goals. Thank you!
+  </p>
 </div>
 
 <hr />
