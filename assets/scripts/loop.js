@@ -1,32 +1,19 @@
 <script>
-const canvas = document.getElementById("loopCanvas");
+const canvas = document.getElementById("cyclistCanvas");
 const ctx = canvas.getContext("2d");
 
-// Infinity loop path
-function drawTrack() {
-  ctx.clearRect(0, 0, canvas.width, canvas.height);
-  ctx.strokeStyle = "#888";
-  ctx.lineWidth = 3;
-  ctx.beginPath();
-  ctx.arc(250, 200, 100, 0, Math.PI * 2); // Left circle
-  ctx.arc(550, 200, 100, 0, Math.PI * 2); // Right circle
-  ctx.stroke();
-}
-
-// Cyclist image setup
 const cyclist = new Image();
-cyclist.src = "{{ 'assets/images/CyclistLoopFigure.png' | relative_url }}";
+cyclist.src = "{{ 'assets/images/Cyclist.png' | relative_url }}"; 
 
-// Position
 let angle = 0;
-let side = "left"; // left or right loop
+let centerX = 400;
+let centerY = 200;
+let radius = 150;
 
 function animateCyclist() {
-  drawTrack();
+  ctx.clearRect(0, 0, canvas.width, canvas.height);
 
-  const radius = 100;
-  const centerX = side === "left" ? 250 : 550;
-  const centerY = 200;
+  // Calculate position on loop
   const x = centerX + radius * Math.cos(angle);
   const y = centerY + radius * Math.sin(angle);
 
@@ -36,16 +23,9 @@ function animateCyclist() {
   ctx.drawImage(cyclist, -20, -20, 40, 40);
   ctx.restore();
 
-  angle += 0.02;
+  angle += 0.01;
   requestAnimationFrame(animateCyclist);
 }
 
-// Key control
-document.addEventListener("keydown", function(e) {
-  if (e.key.toLowerCase() === "l") side = "left";
-  else if (e.key.toLowerCase() === "r") side = "right";
-});
-
-// Kickstart animation
 cyclist.onload = () => animateCyclist();
 </script>
