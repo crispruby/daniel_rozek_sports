@@ -77,6 +77,10 @@ header:
     </tbody>
   </table>
 </div>
+<div class="roadCanvasWrapper" style="position: relative; width: 800px; margin: 40px auto;"> 
+  <img src="{{ 'assets/images/Road.png' | relative_url }}" alt="Road" id="loopTrack" style="width: 100%; display: block; position: relative; z-index: 1;"> 
+  <canvas id="cyclistCanvas" width="800" height="800" style="position: absolute; top: 0; left: 0; pointer-events: none; z-index: 2;"></canvas> 
+</div>
 <script>
   const canvas = document.getElementById("cyclistCanvas");
   const ctx = canvas.getContext("2d");
