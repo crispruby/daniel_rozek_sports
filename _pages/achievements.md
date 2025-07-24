@@ -95,10 +95,10 @@ header:
   const maxFrames = 130; // run for 140 frames 
   let frameCount = 0;
 
-  const curveFrames = 240;       // Duration of the curve
+  const curveFrames = 180;       // Duration of the curve
   let curveProgress = 0;
   const curveStartAngle = angle; // Starting angle
-  const curveEndAngle = -4.35;    // Final angle after turning
+  const curveEndAngle = -4.45;    // Final angle after turning
   
   function animateCyclist() {
     ctx.clearRect(0, 0, canvas.width, canvas.height);
