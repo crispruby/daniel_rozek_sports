@@ -90,7 +90,7 @@ header:
   let y = 400;
   let angle = -0.45; // Test angle here!
   let speed = 2;
-  const maxFrames = 160;
+  const maxFrames = 140;
   let frameCount = 0;
   function animateCyclist() {
     ctx.clearRect(0, 0, canvas.width, canvas.height);
