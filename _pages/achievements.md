@@ -91,7 +91,7 @@ header:
   // 🎯 Starting Coordinates + Rotation Angle (adjust as needed)
   const startX = 400;
   const startY = 200;
-  const startAngle = Math.PI / 4; // 45 degrees in radians
+  const startAngle = -(Math.PI / 4); // 45 degrees in radians
 
   function drawCyclistStart() {
     ctx.clearRect(0, 0, canvas.width, canvas.height);
