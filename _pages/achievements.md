@@ -77,6 +77,7 @@ header:
     </tbody>
   </table>
 </div>
-<div style="width: 100%; margin-top: 40px;">
-  <canvas id="loopCanvas" width="800" height="400" style="border: 1px solid #ccc;"></canvas>
+<div style="width: 100%; text-align: center; margin-top: 40px;">
+  <img src="{{ 'assets/images/Road.png' | relative_url }}" alt="Cycling Loop Track" id="loopTrack" style="width: 800px; max-width: 100%; position: relative;">
+  <canvas id="cyclistCanvas" width="800" height="400" style="position: absolute; top: 0; left: 50%; transform: translateX(-50%); pointer-events: none;"></canvas>
 </div>
