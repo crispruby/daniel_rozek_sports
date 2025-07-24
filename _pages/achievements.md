@@ -77,24 +77,18 @@ header:
     </tbody>
   </table>
 </div>
-<div class="roadCanvasWrapper" style="position: relative; width: 800px; margin: 40px auto;">
-  <img src="{{ 'assets/images/Road.png' | relative_url }}" alt="Road" id="loopTrack"
-       style="width: 100%; display: block; position: relative; z-index: 1;">
-  <canvas id="cyclistCanvas" width="800" height="800"
-       style="position: absolute; top: 0; left: 0; pointer-events: none; z-index: 2;"></canvas>
-</div>
 <script>
   const canvas = document.getElementById("cyclistCanvas");
   const ctx = canvas.getContext("2d");
 
   const cyclist = new Image();
-  cyclist.src = "{{ 'assets/images/Cyclist.png' | relative_url }}"; // Jekyll-compatible
+  cyclist.src = "{{ 'assets/images/Cyclist.png' | relative_url }}";
 
-  // 🎯 Starting Coordinates + Rotation Angle (adjust as needed)
-  const startX = 400;
-  const startY = 400;
-  const startAngle = -(Math.PI / 4); // 45 degrees in radians
+  let x = 400;
+  let y = 400;
+  let angle = -(Math.PI / 4); // Test angle here!
   let speed = 2;
+
   function animateCyclist() {
     ctx.clearRect(0, 0, canvas.width, canvas.height);
     ctx.save();
@@ -102,10 +96,12 @@ header:
     ctx.rotate(angle);
     ctx.drawImage(cyclist, -20, -20, 40, 40);
     ctx.restore();
-    // Move based on angle
+
     x += speed * Math.cos(angle);
     y += speed * Math.sin(angle);
+
     requestAnimationFrame(animateCyclist);
   }
+
   cyclist.onload = () => animateCyclist();
 </script>
