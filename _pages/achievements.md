@@ -92,14 +92,31 @@ header:
   let y = 400;
   let angle = -0.45;
   let speed = 2;
-  const maxFrames = 130; // run for 140 frames 
+  const maxFrames = 140; // run for 140 frames 
   let frameCount = 0;
 
-  const curveFrames = 180;       // Duration of the curve
-  let curveProgress = 0;
-  const curveStartAngle = angle; // Starting angle
-  const curveEndAngle = -4.45;    // Final angle after turning
   
+  const canvas = document.getElementById("cyclistCanvas");
+  const ctx = canvas.getContext("2d");
+
+  const cyclist = new Image();
+  cyclist.src = "{{ 'assets/images/Cyclist.png' | relative_url }}";
+
+  // Phase 1: Straight movement variables
+  let x = 400;
+  let y = 400;
+  let angle = -0.45;
+  let speed = 2;
+  const maxFrames = 140;
+  let frameCount = 0;
+
+  // Phase 2: Bézier curve variables
+  const curveFrames = 100;
+  let curveFrame = 0;
+  const P0 = { x: 400 + Math.cos(angle) * speed * maxFrames, y: 400 + Math.sin(angle) * speed * maxFrames }; // end of straight
+  const P1 = { x: P0.x + 100, y: P0.y - 100 }; // control point pulls the arc upward
+  const P2 = { x: P0.x + 200, y: P0.y };       // end point of curve
+
   function animateCyclist() {
     ctx.clearRect(0, 0, canvas.width, canvas.height);
 
@@ -107,14 +124,18 @@ header:
       x += speed * Math.cos(angle);
       y += speed * Math.sin(angle);
       frameCount++;
+    } else if (curveFrame < curveFrames) {
+      // Bézier interpolation (Quadratic)
+      const t = curveFrame / curveFrames;
+      x = (1 - t) ** 2 * P0.x + 2 * (1 - t) * t * P1.x + t ** 2 * P2.x;
+      y = (1 - t) ** 2 * P0.y + 2 * (1 - t) * t * P1.y + t ** 2 * P2.y;
 
-    } else if (curveProgress < curveFrames) {
-      const t = curveProgress / curveFrames;
-      angle = curveStartAngle + (curveEndAngle - curveStartAngle) * t;
+      // Derivative to calculate angle of rotation
+      const dx = 2 * (1 - t) * (P1.x - P0.x) + 2 * t * (P2.x - P1.x);
+      const dy = 2 * (1 - t) * (P1.y - P0.y) + 2 * t * (P2.y - P1.y);
+      angle = Math.atan2(dy, dx);
 
-      x += speed * Math.cos(angle);
-      y += speed * Math.sin(angle);
-      curveProgress++;
+      curveFrame++;
     }
 
     ctx.save();
@@ -123,8 +144,7 @@ header:
     ctx.drawImage(cyclist, -20, -20, 40, 40);
     ctx.restore();
 
-    // Continue animation until both phases complete
-    if (frameCount < maxFrames || curveProgress < curveFrames) {
+    if (frameCount < maxFrames || curveFrame < curveFrames) {
       requestAnimationFrame(animateCyclist);
     }
   }
