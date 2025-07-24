@@ -88,23 +88,30 @@ header:
   cyclist.src = "{{ 'assets/images/Cyclist.png' | relative_url }}";
   let x = 400;
   let y = 400;
-  let angle = -0.45; // Test angle here!
-  let speed = 2;
-  const maxFrames = 140;
+  let angle = -0.45; // starting direction (radians)
+  let targetAngle = 0.45; // ending direction
+  const totalFrames = 100; // duration of the curve
   let frameCount = 0;
-  function animateCyclist() {
+  let radius = 80; // curve size (distance from center of turn)
+
+  function animateCurveTurn() {
     ctx.clearRect(0, 0, canvas.width, canvas.height);
+    // Curve progress (0 to 1)
+    const t = frameCount / totalFrames;
+    const curvedAngle = angle + (targetAngle - angle) * t;
+    // Curve motion: simulate circular arc
+    x += 2 * Math.cos(curvedAngle);
+    y += 2 * Math.sin(curvedAngle);
+    // Draw cyclist
     ctx.save();
     ctx.translate(x, y);
-    ctx.rotate(angle);
+    ctx.rotate(curvedAngle);
     ctx.drawImage(cyclist, -20, -20, 40, 40);
     ctx.restore();
-    if (frameCount < maxFrames) {
-      x += speed * Math.cos(angle);
-      y += speed * Math.sin(angle);
-      frameCount++;
+    frameCount++;
+    if (frameCount <= totalFrames) {
+      requestAnimationFrame(animateCurveTurn);
     }
-    requestAnimationFrame(animateCyclist);
   }
-  cyclist.onload = () => animateCyclist();
+  cyclist.onload = () => animateCurveTurn();
 </script>
