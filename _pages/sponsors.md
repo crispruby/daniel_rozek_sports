@@ -6,7 +6,7 @@ header:
   caption: Mountain Peaks
 ---
 <div style="text-align: center; margin-top: 1rem;">
-  <h2>Training with Special Olympics 🏃‍♂️⛷️</h2>
+  <h2>Training for Multiple Sports</h2>
   <p>
     I’m proud to be an athlete with Special Olympics, where I stay active and focused year-round. I compete in summer track and field events and winter cross-country skiing. I also participate in other team sports like basketball and soccer.  
     <br>
@@ -18,7 +18,7 @@ header:
 
 <h3>💸 Donate & Support</h3>
 <ul>
-  <li><strong>PayPal:</strong> <a href="https://www.paypal.com/paypalme/YourLinkHere" target="_blank">Donate Now</a></li>
+  <li><strong>PayPal:</strong> <a href="https://paypal.me/danielanthonyrozek" target="_blank">Donate Now</a></li>
   <li>Every contribution counts — from race entries to training costs.</li>
 </ul>
 
