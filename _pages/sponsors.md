@@ -23,19 +23,27 @@ header:
     Support My Journey via PayPal
   </a>
 </div>
+<div style="text-align: center; margin: 20px 0;">
+  <a href="https://gofund.me/e5dc1894" target="_blank"
+     style="background-color: #00b264; color: white; padding: 12px 24px;
+            text-decoration: none; border-radius: 6px;
+            font-size: 1.1em; display: inline-block; box-shadow: 0 2px 6px rgba(0,0,0,0.2);">
+    Send Me Money on GoFundMe
+  </a>
+</div>
 <ul>
   <li>Every contribution counts — from race entries to training costs.</li>
 </ul>
 
-<h3>🎁 Become a Sponsor or Offer Gear</h3>
+<h3>Become a Sponsor or Offer Gear</h3>
 <p>If you're a brand or individual interested in sponsoring me or providing support:</p>
 <ul>
-  <li>📧 <a href="mailto:drobpc@gmail.com">drobpc@gmail.com</a></li>
-  <li>📞 <a href="tel:+12508700919">1-250-870-0919</a></li>
+  <li><a href="mailto:drobpc@gmail.com">drobpc@gmail.com</a></li>
+  <li><a href="tel:+12508700919">1-250-870-0919</a></li>
 </ul>
 <p>Future sponsors will be featured here with logos and shout-outs!</p>
 
-<h3>📢 Share & Follow</h3>
+<h3>Share & Follow</h3>
 <ul>
   <li><a href="https://www.strava.com/athletes/danielrozek" target="_blank">Strava Profile</a></li>
   <li><a href="https://www.instagram.com/captain_garneto/" target="_blank">Instagram</a></li>
@@ -43,6 +51,6 @@ header:
 
 <hr />
 
-<h3>🥇 Sponsors Wall (Coming Soon)</h3>
+<h3>Sponsors Wall (Coming Soon)</h3>
 <p>_Thanks to future sponsors who help make this ride possible._<br>
 Interested in seeing your logo here? Reach out today!</p>
