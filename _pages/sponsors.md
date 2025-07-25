@@ -15,10 +15,15 @@ header:
 </div>
 
 <hr />
-
-<h3>💸 Donate & Support</h3>
+<div style="text-align: center; margin: 30px 0;">
+  <a href="https://paypal.me/danielanthonyrozek" target="_blank"
+     style="background-color: #0070ba; color: white; padding: 12px 24px;
+            text-decoration: none; border-radius: 6px;
+            font-size: 1.1em; display: inline-block; box-shadow: 0 2px 6px rgba(0,0,0,0.2);">
+    Support My Journey via PayPal
+  </a>
+</div>
 <ul>
-  <li><strong>PayPal:</strong> <a href="https://paypal.me/danielanthonyrozek" target="_blank">Donate Now</a></li>
   <li>Every contribution counts — from race entries to training costs.</li>
 </ul>
 
