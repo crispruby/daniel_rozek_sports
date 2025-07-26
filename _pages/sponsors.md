@@ -1,6 +1,8 @@
 ---
 title: "Support Me"
 permalink: /sponsors/
+layout: single
+classes: wide
 header:
   image: /assets/WidePeaks.jpg
   caption: Mountain Peaks
