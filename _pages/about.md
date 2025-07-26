@@ -1,6 +1,8 @@
 ---
 permalink: /about/
 title: "About Me"
+layout: single
+classes: wide
 header:
   image: /assets/TreePeaks.jpg
   caption: Mountain Peaks
