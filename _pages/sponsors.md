@@ -54,5 +54,5 @@ header:
 <hr />
 
 <h3>Sponsors Wall (Coming Soon)</h3>
-<p>_Thanks to future sponsors who help make this ride possible._<br>
+<p>Thanks to future sponsors who help make this ride possible.<br>
 Interested in seeing your logo here? Reach out today!</p>
