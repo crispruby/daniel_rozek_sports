@@ -47,7 +47,6 @@ author:
     - label: "Strava"
       icon: "fas fa-fw fa-running"
       url: "https://www.strava.com/athletes/danielrozek"
-      target: "_blank"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/crispruby"
