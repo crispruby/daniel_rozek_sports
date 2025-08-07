@@ -1,15 +1,15 @@
 <div class="author__wrapper">
   <div class="author__avatar">
-    <img src="{{ author.avatar | relative_url }}" alt="{{ author.name }}">
+    <img src="{{ site.author.avatar | relative_url }}" alt="{{ site.author.name }}">
   </div>
 
   <div class="author__content">
-    <h3 class="author__name">{{ author.name }}</h3>
-    <p class="author__bio">{{ author.bio }}</p>
+    <h3 class="author__name">{{ site.author.name }}</h3>
+    <p class="author__bio">{{ site.author.bio }}</p>
 
-    {% if author.links %}
+    {% if site.author.links %}
     <ul class="author__urls social-icons">
-      {% for link in author.links %}
+      {% for link in site.author.links %}
       <li>
         <a href="{{ link.url }}" target="_blank" rel="noopener noreferrer">
           {% if link.icon %}
