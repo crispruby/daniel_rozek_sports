@@ -12,7 +12,7 @@ Hi, I’m Daniel Rozek, a Special Olympics athlete, game developer, and lifelong
 
 ---
 ## My Journey
-From a young age, I’ve been drawn to movement, creativity, and challenge. I grew up playing soccer and cycling, and later dedicated over a decade to Tae-Kwon-Do, earning my 2nd-degree black belt and teaching for seven years. The core values of Tae-Kwon-Do:**Courtesy, Integrity, Perseverance, Self-Control, and Indomitable Spirit** continue to shape how I live and train.
+From a young age, I’ve been drawn to movement, creativity, and challenge. I grew up playing soccer and cycling, and later dedicated over a decade to Tae-Kwon-Do, earning my second degree black belt and teaching for seven years. The core values of Tae-Kwon-Do:**Courtesy, Integrity, Perseverance, Self-Control, and Indomitable Spirit** continue to shape how I live and train.
 I also live with epilepsy and autism. Diagnosed with epilepsy as a baby, it reawakened at age seven and has presented ongoing medical challenges. One limitation is that I can’t drive, but I’ve adapted by cycling everywhere including sports, appointments, errands, and for fun. Staying active helps me manage my health and maintain a fit body, and my health issue.
 
 ---
