@@ -8,7 +8,7 @@ header:
   caption: Mountain Peaks
 ---
 ## Welcome
-Hi, I’m Daniel Rozek, a Special Olympics athlete, game developer, and lifelong learner living in Kelowna, BC. I was born in Calgary in 1996 to Czech parents, and grew up in Cochrane before settling in Kelowna as a young teenager. I’m now part of the Special Olympics community, and part of the NRG run club.
+Hi, I’m Daniel Rozek, a Special Olympics athlete, game developer, and lifelong learner living in Kelowna, BC. I was born in Calgary in 1996 to Czech parents, and grew up in Cochrane before settling in Kelowna as a young teenager. I’m now part of the Special Olympics community, and part of the Pulse run club.
 
 ---
 ## My Journey
