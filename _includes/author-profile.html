@@ -1,0 +1,23 @@
+<div class="author__avatar">
+  <img src="{{ author.avatar | relative_url }}" alt="{{ author.name }}">
+</div>
+
+<div class="author__content">
+  <h3 class="author__name">{{ author.name }}</h3>
+  <p class="author__bio">{{ author.bio }}</p>
+
+  {% if author.links %}
+  <ul class="author__urls social-icons">
+    {% for link in author.links %}
+    <li>
+      <a href="{{ link.url }}" target="_blank" rel="noopener noreferrer">
+        {% if link.icon %}
+        <i class="{{ link.icon }}"></i>
+        {% endif %}
+        {{ link.label }}
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
+  {% endif %}
+</div>
