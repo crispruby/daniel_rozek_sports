@@ -1,0 +1,16 @@
+<footer class="page__footer">
+  <div class="page__footer-follow">
+    <ul class="social-icons">
+      {% for link in site.footer.links %}
+      <li>
+        <a href="{{ link.url }}" target="_blank" rel="noopener noreferrer">
+          {% if link.icon %}
+          <i class="{{ link.icon }}"></i>
+          {% endif %}
+          {{ link.label }}
+        </a>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</footer>
