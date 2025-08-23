@@ -62,7 +62,7 @@ header:
       </tr>
     </thead>
     <tbody>
-      <tr><td style="padding: 8px;">2025</td><td style="padding: 8px;">1,013 km</td><td style="padding: 8px;">29</td><td style="padding: 8px;">Special Olympics BC Provincial Summer Games</td></tr>
+      <tr><td style="padding: 8px;">2025</td><td style="padding: 8px;">1,247 km</td><td style="padding: 8px;">29</td><td style="padding: 8px;">Special Olympics BC Provincial Summer Games</td></tr>
       <tr><td style="padding: 8px;">2024</td><td style="padding: 8px;">1,320 km</td><td style="padding: 8px;">28</td><td style="padding: 8px;">Special Olympics Regional Summer Games</td></tr>
       <tr><td style="padding: 8px;">2023</td><td style="padding: 8px;">2,607 km</td><td style="padding: 8px;">27</td><td style="padding: 8px;">Joined Special Olympics</td></tr>
       <tr><td style="padding: 8px;">2022</td><td style="padding: 8px;">1,778 km</td><td style="padding: 8px;">26</td><td style="padding: 8px;">End of COVID</td></tr>
